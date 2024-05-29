@@ -1,0 +1,65 @@
+/* imported from google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* reset the default properties */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px; /*to get curve at corner*/
+  object-fit: cover;
+}
+
+#container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 320px; /* width for mobile*/
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 12px;
+}
+
+.card_details {
+  margin: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.para {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+}
+
+.attribute {
+  color: hsl(220, 15%, 55%);
+}
+
+.attribute a {
+  color: hsl(218, 44%, 22%);
+  text-decoration: none;
+}
+
+.attribute a:hover {
+  text-decoration: underline;
+}
